@@ -1043,7 +1043,8 @@ img.with-border{
 /* 06.5.4 Title Alignment */
 /* ----------------------------------------------*/
 .slide-title.align-middle{
-	vertical-align: middle;
+	vertical-align: top;
+	padding-top:100px;
 }
 .slide-title.align-top{
 	vertical-align: top;
