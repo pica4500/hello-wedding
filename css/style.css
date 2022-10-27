@@ -2718,6 +2718,11 @@ footer .image-divider.fixed-height{
 	padding: 140px 0
 }
 
+.set-middle {
+	display: flex;
+	justify-content: center;
+  }
+
 .story-row.row {
     display: table;
 	padding:50px 0;
