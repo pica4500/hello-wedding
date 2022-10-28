@@ -260,13 +260,21 @@
                                	<!--PHOTO OVERLAY-->
                            		<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
                             	</div><!--END of PHOTO OVERLAY-->
-                                				                                    
+                                
+								
+
                                 <!--ICON LINK-->
                                 <div class="layer wh100 hidden-link hover-animation delay1 fade-in">
                                     <div class="alignment">
-                                    	<div class="v-align center-middle">
-                                           
-                                     		<a href="./images/profile/resize/js.jpg" class="magnific-zoom">
+										
+                                    	<div class="v-align center-middle" image= >
+										<img src="./images/profile/resize/js.jpg" onclick="changeImage1(this)">
+										<script>
+											function changeImage1(image) {
+												image.src = './images/profile/resize/ms_2.jpg'
+											}
+										</script>   
+                                     		<!-- <a href="./images/profile/resize/js.jpg" class="magnific-zoom" >
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-zoom-in"></i>
             									</div>
@@ -276,7 +284,7 @@
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-link"></i>
             									</div>
-        									</a>
+        									</a> -->
                                                 
                                       	</div>
                                     </div>
