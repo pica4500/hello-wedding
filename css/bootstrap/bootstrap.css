@@ -1424,6 +1424,12 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.col-md-4-new {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
@@ -1894,6 +1900,14 @@ pre code {
   }
   .col-md-offset-0 {
     margin-left: 0;
+  }
+}
+@media (min-width: 100px) {
+  .col-md-4-new {
+    float: left;
+  }
+  .col-md-4-new {
+    width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
