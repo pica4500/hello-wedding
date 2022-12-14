@@ -335,8 +335,7 @@ $(document).ready(function() {
 		
 	// 07. COUNTDOWN
 	//===================================================================================
-	var theday = new Date();
-	theday = new Date(2022, 1, 15);
+	var theday = new Date(2023, 0, 15, 13, 0);  // js Date month is begin 0: January is 0.
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
